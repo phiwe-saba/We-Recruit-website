@@ -1,0 +1,49 @@
+body{
+    background-color:whitesmoke;
+    font-family:Inter, sans-serif;
+}
+
+.container{
+    margin:0 15% 0 15%;
+}
+
+span{
+    color:rgb(66, 125, 214);
+}
+h2{
+    font-size:35px;
+    padding:80px;
+    text-align:center;
+}
+
+.form-container{
+    padding:20px;
+    font-size: 18px;
+    text-align:center;
+    margin:0 15% 0 15%;
+}
+
+form label{
+    padding:1px;
+    margin:15px;
+    align-items: flex-start;
+}
+
+form input{
+    margin-left:45px;
+    border-radius: 10px;
+    border:1px solid;
+}
+
+.btn button{
+    padding:8px;
+    background-color:rgb(66, 125, 214);
+    text-decoration: none;
+    border:1px;
+    border-radius: 10px;
+    float:right;
+}
+
+.btn button:hover{
+    background-color: gray;
+}
