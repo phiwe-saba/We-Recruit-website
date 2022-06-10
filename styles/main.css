@@ -7,11 +7,12 @@
 body{
     font-family:Inter, sans-serif;
     background-color: whitesmoke;
+    max-width:1120px;
+    margin: auto;
 }
 
 .container{
-    margin-left:10%;
-    margin-right: 10%;
+    
 }
 
 
