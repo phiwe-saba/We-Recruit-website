@@ -27,6 +27,11 @@
     padding: 20px 0;
     border-bottom: 1px solid silver;
   }
+
+  .center h1 a{
+    text-decoration: none;
+    color:black;
+  }
   .center form{
     padding: 0 40px;
     box-sizing: border-box;
