@@ -62,27 +62,34 @@ body{
 }
 
 .header h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 1.2;
     text-align: left;
     padding-top: 0px;
+    margin-left: 10px;
 }
 
 .header p{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: black;
     text-align: left;
+    margin-left: 10px;
 }
 
 .container button{
-    background-color: rgb(34, 183, 233);
+    background-color: rgb(66, 125, 214);
     border-style: none;
     border-radius: 10px;
     font-size:20px;
     color:white;
-    padding:10px;
+    padding:20px;
+    margin-left: 10px;
 }
 
+.container button a{
+    text-decoration: none;
+    color: white;
+}
 .container button:hover{
     background-color: black;
 }
@@ -115,8 +122,8 @@ body{
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 20px 25px;
-    margin: 20px 25px;
-    box-shadow: 10px 10px 5px lightblue;
+    margin: 0 25px;
+    /*box-shadow: 10px 10px 5px lightblue;*/
 }
 
 .box img{
@@ -157,9 +164,13 @@ body{
     padding:60px;
 }
 
+#job{
+    padding-left: 180px;
+}
+
 .body-section img{
     width: 450px;
-    height:250px;
+    height:410px;
 }
 
 #job h1{
@@ -178,7 +189,7 @@ body{
     font-size: 20px;
     border: 0;
     border-radius: 8px;
-    padding: 15px;
+    padding:20px;
 }
 
 #job button:hover{
@@ -192,7 +203,7 @@ body{
     font-size: 20px;
     border: 0;
     border-radius: 8px;
-    padding:15px;
+    padding:20px;
 }
 
 #blogmain button:hover{
