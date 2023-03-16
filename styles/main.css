@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
 body{
     margin:0;
     padding: 0;
@@ -10,7 +12,6 @@ body{
     max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
-    /*background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));*/
 }
 
 .logo{
@@ -48,7 +49,7 @@ body{
 
 /* Header Section */
 .header{
-    min-height: 60vh;
+    min-height: 100vh;
 }
 
 .header img{
@@ -59,6 +60,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 60px;
 }
 
 .header h1{
@@ -66,14 +68,16 @@ body{
     line-height: 1.2;
     text-align: left;
     padding-top: 0px;
-    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    /*margin-left: 10px;*/
 }
 
 .header p{
     font-size: 1.6rem;
     color: black;
     text-align: left;
-    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    /*margin-left: 10px;*/
 }
 
 .container button{
@@ -83,7 +87,7 @@ body{
     font-size:20px;
     color:white;
     padding:20px;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .container button a{
@@ -97,9 +101,9 @@ body{
 /* Main Section */
 .main-section .container{
     min-height: 60vh;
-    text-align: center;
     justify-content: space-between;
     align-items: center;
+    display: flex;
 }
 
 .main-section .sub-logo{
@@ -123,41 +127,9 @@ body{
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 20px 25px;
     margin: 0 25px;
-    /*box-shadow: 10px 10px 5px lightblue;*/
+    box-shadow: 10px 10px 5px lightblue;
 }
 
-.box img{
-    width:80px;
-    height:80px;
-}
-/*.main-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 25px;
-}
-
-.box{
-    padding: 20px;
-    margin:5px 80px 15px 80px;
-}
-
-.box img{
-    width:80px;
-    height:80px;
-}
-
-.main-section h1{
-    text-align:center;
-    padding:5px;
-}
-
-.main-section{
-    background-color: #E5E7EB;
-    padding: 5px;
-    color: black;
-}
-*/
 /* Body Section */
 .body-section{
     display: flex;
@@ -244,4 +216,76 @@ footer{
     background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
     padding: 15px;
     color: white;
+}
+
+@media(max-width: 768px){
+    .header .container{
+        display: block;
+        text-align: center;
+    }
+
+    .header img{
+        max-width: 300px;
+    }
+    .header .container h1{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .header .container p{
+        font-size: larger;
+    }
+
+    .header .container button{
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .main-section .container{
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .main-section .container .box{
+        margin: 25px;
+    }
+
+    .body-section .container{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .body-section .container img{
+        width: 100%;
+        height: auto;
+    }
+
+    .body-section .container h1{
+        font-size: 30px;
+    }
+
+    .body-section .container button{
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .blog-section .container{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .blog-section .container img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-section .container button{
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+    }
 }
