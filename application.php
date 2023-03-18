@@ -11,7 +11,7 @@
 <body>
     <div class="center">
         <h1><a href="./index.html">We-Recruit</a></h1>
-        <form method="post">
+        <form action="" method="post">
           <div class="txt_field">
             <input type="text" required>
             <span></span>
@@ -34,7 +34,7 @@
           </div>
           <input type="submit" value="Apply">
           <div class="signup_link">
-            Don't have an account? <a href="./index.html">Signup</a>
+            Don't have an account? <a href="./index.php">Signup</a>
           </div>
         </form>
       </div>

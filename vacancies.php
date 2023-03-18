@@ -10,11 +10,11 @@
 <body>
     <div class="navbar">
         <nav class="container">
-            <div class="logo"> <a href="./index.html">We-Recruit</a></div>
+            <div class="logo"> <a href="./index.php">We-Recruit</a></div>
             <ul>
-                <li id="header-links"><a href="vacancies.html">Vacancies</a></li>
-                <li id="header-links"><a href="blog.html">Blog</a></li>
-                <li id="header-links"><a href="application.html">Apply</a></li>
+                <li id="header-links"><a href="vacancies.php">Vacancies</a></li>
+                <li id="header-links"><a href="blog.php">Blog</a></li>
+                <li id="header-links"><a href="application.php">Apply</a></li>
             </ul>
         </nav>
     </div>
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="boxes">
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Junior Software Developer <p>
                         </div>
@@ -66,7 +66,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>HR Intern</p>
                         </div>
@@ -82,7 +82,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Data Analyst Intern</p>
                         </div>
@@ -98,7 +98,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Cloud Developer</p>
                         </div>
@@ -114,7 +114,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Cashier</p>
                         </div>
@@ -130,7 +130,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Internal Auditor</p>
                         </div>
@@ -146,7 +146,7 @@
                     </a>
                 </div>
                 <div class="box">
-                    <a href="application.html">
+                    <a href="application.php">
                         <div class="title">
                             <p>Web Developer</p>
                         </div>
