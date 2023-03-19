@@ -9,7 +9,6 @@ body{
 }
 
 .container{
-    /*width: 100%;*/
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 50px;
@@ -48,16 +47,6 @@ body{
     color: white;
 }
 
-#header-logo{
-    align-items: flex-start;
-    flex: 2;
-}
-
-#header-links{
-    padding-right: 45px;
-    align-items: flex-end;
-}
-
 /* Header Section */
 .header-section{
     text-align:center;
@@ -73,39 +62,21 @@ body{
     font-size: 26px;
 }
 
-/*Showcase*/
-.vac-showcase{
-    min-height:300px;
-    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
-    opacity: 0.8;
-    color:rgb(255, 249, 249);
-}
-
-.vac-showcase h2{
-    padding-top:90px;
-    text-align:center;
-    font-size: 55px;
-}
-
-.vac-showcase p{
-    padding-top:10px;
-    text-align:center;
-    font-size:25px;
-}
-
-.vac-search{
-    padding-top:20px;
-    margin-left:15%;
-    margin-right:15%;
-}
-
 /**Search bar*/
 .search-bar{
     background-color: #E5E7EB;
-    padding:100px;
+    padding-bottom:80px;
 }
+
 .content-bar{
     text-align:center;
+    padding-bottom: 10px;
+}
+
+.content-bar input{
+    padding: 10px 0;
+    border: 1px solid;
+    text-align: center;
 }
 
 input, select, button{
@@ -125,22 +96,10 @@ input, select, button{
     background-color:gray;
 }
 
-/**Boxes*/
-.job-container{
-    margin-left:10%;
-    margin-right:10%;
-}
-
+/* Boxes */
 .job-container .container{
-    padding: 50px;
-}
-
-.boxes {
-    margin-top:20px;
-}
- 
-.boxes .box p{
-    color:rgb(77, 72, 72);
+    margin: 0 20%;
+    padding: 20px;
 }
    
 .box{
@@ -184,19 +143,34 @@ footer p{
     padding:35px;
     font-size: 15px;
     margin: 0px;
-    /*margin-top:15px;*/
     color:white;
 }
 
 @media(max-width: 768px){
+    .navbar .container ul li{
+        font-size: 15px;
+    }
+
+    .navbar .container ul li a{
+        margin: 0;
+    }
+
+    .navbar .container .logo{
+        font-size: 20px;
+    }
+
     .search-bar .container{
         display: block;
         text-align: center;
     }
 
-    .search-bar .container h1{
+    .container h1{
         text-align: center;
-        font-size: 28px;
+        font-size: 25px;
+    }
+
+    .container p{
+        font-size: 15px;
     }
 }
  

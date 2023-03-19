@@ -9,7 +9,6 @@ body{
 }
 
 .container{
-  /*width: 100%;*/
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 50px;
@@ -134,4 +133,19 @@ footer{
   background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
   padding: 15px;
   color: white;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  .navbar .container ul li{
+    font-size: 15px;
+  }
+
+  .navbar .container ul li a{
+    margin: 0;
+  }
+
+  .navbar .container .logo{
+    font-size: 20px;
+  }
 }
