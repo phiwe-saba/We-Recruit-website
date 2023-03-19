@@ -134,6 +134,7 @@ input, select, button{
 .job-container .container{
     padding: 50px;
 }
+
 .boxes {
     margin-top:20px;
 }
@@ -142,67 +143,38 @@ input, select, button{
     color:rgb(77, 72, 72);
 }
    
-.boxes .box{
+.box{
     margin:15px;
     padding:20px;
     border: 1px solid rgb(224, 222, 222);
     border-radius: 8px;
 }
 
-.boxes .box .title{
+.box a{
+    text-decoration: none;
+    color:rgb(77, 72, 72);
+}
+
+.box h2{
     font-size: 18px;
     font-style: bold;
 }
 
-.boxes .box .subtitle{
-    font-size:15px;
-    font-weight: bold;
+.box p{
+    margin: 5px 0 ;
 }
 
-.boxes .box .location{
-    font-size: 12px;
-}
-
-/**Apply button*/
-.apply button{
-    background-color: rgb(66, 125, 214);
-    border:1px;
-    color:white;
-    padding:10px 25px;
+.box button{
+    font-size: 15px;
     margin:14px 10px 0px 1px;
-    font-size: 12px;
-}
-
-.apply button:hover{
-    background-color:gray;
-}
-
-
-.signup{
-    text-align:center;
-    padding:20px;
-    margin:20px 20px;
-}
-
-.signup button{
-    padding: 15px 35px;
-    font-size:15px;
+    border: 1px;
+    padding:10px 25px;
     background-color: rgb(66, 125, 214);
-    border:1px;
-    border-radius: 20px;;
+    color: white;
 }
 
-.signup button:hover{
+.box button:hover{
     background-color:gray;
-}
-
-.signup button a{
-    color:white;
-    font-size:15px;
-}
-
-.content{
-    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
 }
 
 /*Page footer*/

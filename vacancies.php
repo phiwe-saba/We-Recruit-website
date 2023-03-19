@@ -48,119 +48,61 @@
     
     <div class="job-container">
         <div class="container">
-            <div class="boxes">
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Junior Software Developer <p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Information Technology</p>
-                        </div>
-                        <div class="location">
-                            <p>Fulltime | Johannesburg</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>HR Intern</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Human Resource</p>
-                        </div>
-                        <div class="location">
-                            <p>Part time | Geminston</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Data Analyst Intern</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Information Technology</p>
-                        </div>
-                        <div class="location">
-                            <p>Contract | Sandton</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Cloud Developer</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Information Technology</p>
-                        </div>
-                        <div class="location">
-                            <p>Fulltime | Johannesburg</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Cashier</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Retail</p>
-                        </div>
-                        <div class="location">
-                            <p>Fulltime | Johannesburg</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Internal Auditor</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Finance</p>
-                        </div>
-                        <div class="location">
-                            <p>Fulltime | Cape Town</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
-                <div class="box">
-                    <a href="application.php">
-                        <div class="title">
-                            <p>Web Developer</p>
-                        </div>
-                        <div class="subtitle">
-                            <p>Information Technology</p>
-                        </div>
-                        <div class="location">
-                            <p>Contract | Johannesburg</p>
-                        </div>
-                        <div class="apply">
-                            <button>Apply</button>
-                        </div>
-                    </a>
-                </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Junior Software Developer</h2>
+                    <p>Information Technology</p>
+                    <p>Fulltime | Johannesburg</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>HR Intern</h2>
+                    <p>Human Resource</p>
+                    <p>Fulltime | Johannesburg</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Data Analyst Intern</h2>
+                    <p>Information Technology</p>
+                    <p>Contract | Sandton</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Cloud Developer</h2>
+                    <p>Information Technology</p>
+                    <p>Fulltime | Johannesburg</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Cashier</h2>
+                    <p>Retail</p>
+                    <p>Fulltime | Johannesburg</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Internal Auditor</h2>
+                    <p>Finance</p>
+                    <p>Fulltime | Cape Town</p>
+                    <button>Apply</button>
+                </a>
+            </div>
+            <div class="box">
+                <a href="application.php">
+                    <h2>Web Developer</h2>
+                    <p>Information Technology</p>
+                    <p>Contract | Johannesburg</p>
+                    <button>Apply</button>
+                </a>
             </div>
         </div>
     </div>
