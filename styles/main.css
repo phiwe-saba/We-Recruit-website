@@ -134,7 +134,7 @@ body{
 
 .body-section .container{
     display: flex;
-    padding-left: 160px;
+    /*padding-left: 160px;*/
     align-items: center;
 }
 
@@ -145,7 +145,7 @@ body{
 }
 
 /* Blog Section */
-#blogmain button{
+/*#blogmain button{
     background-color: rgb(66, 125, 214);
     margin-left:65px;
     font-size: 20px;
@@ -156,7 +156,7 @@ body{
 
 #blogmain button:hover{
     background-color: gray;
-}
+}*/
 
 .blog-section .container{
     display: flex;
@@ -250,8 +250,9 @@ footer{
     }
 
     .body-section .container img{
-        width: 100%;
+        max-width: 100%;
         height: auto;
+        position: static;
     }
 
     .body-section .container h1{
