@@ -128,66 +128,28 @@ body{
 }
 
 /* Body Section */
-.body-section .container #text{
-    padding-left: 150px;
-}
-
 .body-section .container{
     display: flex;
-    /*padding-left: 160px;*/
     align-items: center;
+    margin: 50px;
 }
 
 .body-section .container img{
     width: 450px;
     height:300px;
-    /*padding-left: 200px;*/
 }
 
 /* Blog Section */
-/*#blogmain button{
-    background-color: rgb(66, 125, 214);
-    margin-left:65px;
-    font-size: 20px;
-    border: 0;
-    border-radius: 8px;
-    padding:15px;
-}
-
-#blogmain button:hover{
-    background-color: gray;
-}*/
-
 .blog-section .container{
     display: flex;
-    padding: 10px 50px;
-    margin: 30px;
-}
-
-.blog-section .container #text{
-    padding-left: 65px;
-    /*padding-left: 200px;*/
+    align-items: center;
+    margin: 50px;
 }
 
 .blog-section .container img{
     width: 450px;
     height: 300px;
-    /*padding-left: 200px;*/
 }
-
-/*#blogmain{
-    padding:10px;
-}
-
-#blogmain h1{
-    font-size: 42px;
-    padding-left: 65px;
-}
-
-#blogmain p{
-    font-size: 18px;
-    padding-left: 65px;
-}*/
 
 /* Footer */
 footer{
@@ -211,12 +173,13 @@ footer{
     }
 
     .header .container{
-        display: block;
+        flex-direction:column-reverse;
         text-align: center;
     }
 
     .header img{
-        max-width: 300px;
+        max-width: 100%;
+        height: auto;
     }
 
     .header .container h1{
@@ -226,6 +189,7 @@ footer{
 
     .header .container p{
         font-size: larger;
+        text-align: center;
     }
 
     .header .container button{
@@ -234,9 +198,8 @@ footer{
         padding: 10px;
     }
     .main-section .container{
-        display: block;
+        flex-direction:column-reverse;
         text-align: center;
-        justify-content: space-between;
     }
 
     .main-section .container .box{
@@ -244,19 +207,14 @@ footer{
     }
 
     .body-section .container{
-        display: block;
-        align-items: center;
+        flex-direction:column;
         text-align: center;
+        padding: 25px;
     }
 
     .body-section .container img{
         max-width: 100%;
         height: auto;
-        position: static;
-    }
-
-    .body-section .container h1{
-        font-size: 30px;
     }
 
     .body-section .container button{
@@ -266,15 +224,14 @@ footer{
     }
 
     .blog-section .container{
-        display: block;
-        align-items: center;
         text-align: center;
+        flex-direction:column-reverse;
+        padding: 25px;
     }
 
     .blog-section .container img{
         max-width: 100%;
         height: auto;
-        position: static;
     }
 
     .blog-section .container button{
