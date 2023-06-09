@@ -68,6 +68,18 @@ body{
   color: white;
 }
 
+.header-section{
+  background-color: #E5E7EB;
+  padding: 20px;
+  text-align: center;
+  min-height: 350px;
+}
+
+.header-section h2{
+  font-size: 60px;
+  margin: 120px;
+}
+
 /* Body Section */
 .body-section{
   display: flex;

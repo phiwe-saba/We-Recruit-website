@@ -119,7 +119,8 @@ body{
     text-align: center;
     justify-content: space-between;
     flex: 1;
-    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+    background-color: #E5E7EB;
+    /*background-image: linear-gradient(40deg,rgb(66, 125, 214), #E5E7EB);*/
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
     padding: 20px 25px;
