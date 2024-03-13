@@ -11,4 +11,4 @@ const navToggler = document.querySelector(".nav-toggler");
     else{
     	nav.removeAttribute("style");
     }
- } 
+} 
