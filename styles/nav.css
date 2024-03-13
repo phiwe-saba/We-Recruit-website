@@ -1,0 +1,50 @@
+.logo{
+    font-size: 28px;
+    line-height: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo a:hover, li a:hover{
+    color: black;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar{
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.navbar ul li{
+    margin-left: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .navbar .container ul li{
+        font-size: 15px;
+    }
+
+    .navbar .container ul li a{
+        margin: 0;
+    }
+
+    .navbar .container .logo{
+        font-size: 20px;
+    }
+}

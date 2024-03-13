@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/* Header Section */
+.header-section{
+    text-align:center;
+    padding:60px;
+    color: black;
+}
+
+.header-section h1{
+    font-size: 48px;
+}
+
+.header-section p{
+    font-size: 26px;
+}
+
+/**Search bar*/
+.search-bar{
+    background-color: #E5E7EB;
+    padding-bottom:80px;
+}
+
+.content-bar{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content-bar input{
+    padding: 10px 0;
+    border: 1px solid;
+    text-align: center;
+}
+
+input, select, button{
+    border-radius: 20px;
+    padding:10px 35px;
+    margin:25px;
+    font-size:18px;
+    color:grey;
+}
+
+.content-bar button{
+    background-color: rgb(66, 125, 214);
+    border:1px;
+    color:white;
+}
+
+.content-bar button:hover{
+    background-color:gray;
+}
+
+/* Boxes */
+.boxes {
+    justify-content: center;
+}
+
+.box{
+    margin:15px;
+    padding:20px;
+    border: 1px solid rgb(224, 222, 222);
+    border-radius: 8px;
+}
+
+.box a{
+    text-decoration: none;
+    color:rgb(77, 72, 72);
+}
+
+.box .title{
+    font-size: 25px;
+    font-style: bold;
+}
+
+.box .subtitle, .location{
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.box button{
+    font-size: 15px;
+    margin:14px 10px 0px 1px;
+    border: 1px;
+    padding:10px 25px;
+    background-color: rgb(66, 125, 214);
+    color: white;
+}
+
+.box button:hover{
+    background-color:gray;
+}
+
+.box .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.box .buttons .details button {
+    background-color: rgb(255, 215, 105);
+}
+
+.box .details button:hover{
+    background-color:gray;
+}
+                                                   
+/*Page footer*/
+footer p{ 
+    text-align: center;
+    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
+    padding:35px;
+    font-size: 25px;
+    margin: 0px;
+    color:white;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 768px){
+    .search-bar .container .content-bar {
+        display:block;
+        flex-direction: row;
+    }
+
+    .content-bar input select {
+        flex-direction: column;
+    }
+}
