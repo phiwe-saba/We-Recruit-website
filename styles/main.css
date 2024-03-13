@@ -12,46 +12,6 @@ body{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 80px;
-<<<<<<< HEAD
-=======
-}
-
-.logo{
-    font-size: 28px;
-    line-height: 80px;
-    font-weight: bold;
-    color: white;
-}
-
-.logo a:hover, li a:hover{
-    color: black;
-}
-
-.navbar .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.navbar{
-    background-image: linear-gradient(40deg,rgb(66, 125, 214), rgb(189, 25, 189));
-}
-
-.navbar ul{
-    display: flex;
-    list-style-type: none;
-    font-size: 24px;
-}
-
-.navbar ul li{
-    margin-left: 30px;
-}
-
-.navbar a{
-    text-decoration: none;
-    color: white;
->>>>>>> cb33f46796500c4cae9e916eedbb872863488968
 }
 
 /* Header Section */
