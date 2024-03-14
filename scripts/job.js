@@ -5,7 +5,7 @@ let jobHTML = '';
 jobs.forEach((job) => {
     jobHTML += `
         <div class="box">
-            <a href="application.html">
+            <a href="details.html">
                 <div class="title">
                     <p>${job.jobTitle}<p>
                 </div>
@@ -29,3 +29,5 @@ jobs.forEach((job) => {
 });
 
 document.querySelector(".js-boxes").innerHTML = jobHTML;
+
+

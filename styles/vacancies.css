@@ -110,7 +110,7 @@ input, select, button{
 }
 
 .box .buttons .details button {
-    background-color: rgb(255, 215, 105);
+    background-color: grey;
 }
 
 .box .details button:hover{
