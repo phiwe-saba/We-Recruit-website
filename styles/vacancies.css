@@ -113,6 +113,16 @@ input, select, button{
     background-color: grey;
 }
 
+.box .buttons .details button a {
+    text-decoration: none;
+    color: white;
+}
+
+.box .buttons .apply button a {
+    text-decoration: none;
+    color: white;
+}
+
 .box .details button:hover{
     background-color:gray;
 }

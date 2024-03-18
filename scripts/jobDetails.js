@@ -1,5 +1,14 @@
-import { details } from "../data/jobs";
+//import { details } from "../data/jobs";
 
+const element = document.getElementById("apply").addEventListener("click", previewDetails());
+
+function previewDetails() {
+    console.log("Phiwe Saba");
+}
+
+console.log(element);
+
+/*
 let detailsHTML = '';
 
 details.forEach((details) => {
@@ -37,5 +46,5 @@ details.forEach((details) => {
 console.log(detailsHTML);
 
 document.querySelector(".js-details").innerHTML = detailsHTML;
-
+*/
 console.log("Phiwe");
